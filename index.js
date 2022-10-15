@@ -1,7 +1,7 @@
 'use strict';
 
 const path = require('path');
-const edge = require('edge');
+const edge = require('edge-js');
 
 const dllPath = path.join(__dirname, './lib/dll/release/Edge_FtpMgr.dll');
 
