@@ -34,6 +34,8 @@ namespace Edge_FtpMgr
                             user.Name = userName;
                             user.AccountExpirationDate = expireDate;
                             user.Description = strNote;
+                            user.UserCannotChangePassword = true;
+                            user.PasswordNeverExpires = true;
                             user.Save();
                             IsSuccess = true;
                         }
